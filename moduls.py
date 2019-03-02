@@ -1,6 +1,3 @@
-import math
-r= float(input())
-
-p=0
-p=2*math.pi*r
-print(p)
+import sys
+for i in range(len(sys.argv)):
+    print(sys.argv[i])

@@ -1,9 +1,10 @@
 a2=str(input())
 a=[]
+b=[]
 for i in a2:
     a+=i
 b2= input()
-b=[]
+
 for i in b2:
     b+=i
 d={}
@@ -28,6 +29,7 @@ for i in f1:
     f2+=d1[i]
 for i in range(len(c1)):
     print(c1[i],end='')
+    print()
 for j in range(len(f2)):
     print(f2[j],end='')
 

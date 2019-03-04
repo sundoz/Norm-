@@ -10,4 +10,4 @@ for i in range(m):
         if str(j).lower() not in d:
             d1[j]=''
 for i in d1.keys():
-    print
+    print(i)
